@@ -1,0 +1,81 @@
+body{
+    background-color:rgb(109, 108, 108);
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    background:linear-gradient(45deg,rgb(1, 52, 91),cyan,rgb(199, 230, 98),rgb(121, 0, 121),rgb(11, 148, 11),rgb(84, 84, 55));
+    background-size:cover;
+    width:600px;
+    height:800px;
+    margin:auto;
+    padding:20px;
+    border:5px solid rgb(70, 70, 82);
+    border-radius:10px;
+}
+.header h1{
+    color:rgb(86, 86, 106);
+    text-align:left;
+}
+.header hr{
+    width: 600px;
+    border:2px solid rgb(63, 63, 83);
+}
+.content{
+    font-size:22px;
+    color:black;
+    padding:0;
+    font-style:italic;
+}
+.highlight{
+    background-color:rgba(46, 121, 0, 0.784);
+    font-weight:bold;
+}
+.quotes{
+    margin: top 20px;;
+    width:570px;
+    background:whitesmoke;
+    border-left:6px solid rgb(97, 97, 128);
+    padding:10px;
+    font-style:italic;
+    color:rgb(79, 79, 107);
+}
+.author{  
+    margin-top: 20px;
+    display:flex;
+    background:whitesmoke;
+    padding:10px;
+    border-radius:8px;
+    align-items:center;
+}
+.author img{
+    width:75px;
+    height:90px;
+    border-radius:5px;
+    margin-right:10px;
+}
+.author-text h3{
+    margin:0;
+    color:rgb(77, 77, 103);
+}
+.footer{
+    position:absolute;
+    bottom:10px;
+    left:15px;
+    right:15px;
+    background:rgb(84, 84, 99);
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    border-radius:20px
+}
+.footer h3{
+    display:inline;
+    box-shadow:rgb(68, 68, 81);
+}
+.price{
+    float:right;
+    color:bisque;
+    bottom:auto;
+}
